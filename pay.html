@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pay.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row1">
+        <div class="col1">
+            <h2>Enter your payment details</h2>
+            <div class="col2">
+            <input type="text" name="number" placeholder="Card Number">
+            </div>
+            <div class="col4">
+                <select name="month" id="">
+                    <option value="" disabled="" selected="">Month</option>
+                    <option value="jan">01</option>
+                    <option value="feb">02</option>
+                    <option value="mar">03</option>
+                    <option value="apr">04</option>
+                    <option value="may">05</option>
+                    <option value="jun">06</option>
+                    <option value="jul">07</option>
+                    <option value="aug">08</option>
+                    <option value="sep">09</option>
+                    <option value="oct">10</option>
+                    <option value="nov">11</option>
+                    <option value="dec">12</option>
+                </select>
+                <select name="year" id="">
+                    <option value="" disabled="" selected="">Year</option>
+                    <option value="jan">2024</option>
+                    <option value="feb">2025</option>
+                    <option value="mar">2026</option>
+                    <option value="apr">2027</option>
+                    <option value="may">2028</option>
+                    <option value="jun">2029</option>
+                    <option value="jul">2030</option>
+                    <option value="aug">2031</option>
+                    <option value="sep">2032</option>
+                    <option value="oct">2033</option>
+                    <option value="nov">2034</option>
+                    <option value="dec">2035</option>
+                </select>
+            </div>
+            <div class="col2">
+                <input type="text" name="number" placeholder="CVV">
+                </div>
+            <div class="col2">
+                <input type="text" name="address" placeholder="Street Address">
+            </div>
+            <div class="col2">
+                <input type="text" name="name" placeholder="Apt,unit,suite,etc. (optional)">
+            </div>
+            <div class="col5">
+                <input class="a" type="text" name="city" placeholder="City">
+                <input class="a" type="text" name="state" placeholder="State">
+            </div>
+        </div>
+        <div class="col3">
+            <div>
+            <h3>Professional Plan</h3>
+            <h4>Billing cycle</h4>
+            </div>
+            <div>
+            <input class="b" type="radio" name="ann" value="annual">Full payment(Save 20%) 
+            <input class="b" type="radio" name="mon" value="monthly">Half payment
+            </div>
+            <hr>
+            <div class="c">
+                <div>
+                    Amount
+                </div>
+                <div>
+                    50,000
+                </div>
+            </div>
+            <button>
+                Payment
+            </button>
+        </div>
+    </div>
+</body>
+</html>

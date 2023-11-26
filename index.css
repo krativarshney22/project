@@ -1,0 +1,506 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0px;
+    width: 100%;
+    overflow: scroll;
+}
+
+.navbar{
+    width:100%;
+    height:80px;
+    background-color:rgb(119, 132, 247);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-left:100px;
+    padding-right:100px;
+    font-size: 20px;
+    cursor: pointer;
+    font-stretch: extra-expanded;
+} 
+.navtext{
+    color: #fff;
+}
+.loginsignup{
+    display:flex;
+    justify-content: space-between;
+
+}
+.login{
+    padding: 10px;
+    /* background-color: rgb(237, 110, 64); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(249, 249, 249)
+}
+.signup{
+    padding: 10px;
+    /* background-color: rgb(237, 110, 64); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(249, 249, 249)
+}
+
+.home{
+    margin-top: 50px;
+    width:100%;
+    height: 500px;
+    padding-left: 30px;
+    background-size: cover;
+    display: flex;
+}
+
+.explore{
+    width: 500px;
+    margin-left: 100px;
+    padding: 20px;
+    font-family:'Raleway', sans-serif;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 171);
+    height:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: none;
+}
+.semi1{
+    margin-bottom: 50px;
+    margin-left: 75px;
+    display: flex;
+}
+.semi2{
+    margin-left: 30px;
+    display:flex;
+}
+.container1{
+    margin-left: 50px;
+    width: 200px;
+    height:170px;
+    background-image: url("https://www.wallpapers13.com/wp-content/uploads/2019/04/Kochi-Kerala-India-Red-sky-sunset-reflection-Landscape-photography-4K-Ultra-HD-Desktop-Wallpapers-for-Computers-Laptop-Tablet-And-Mobile-Phones-1920x1200.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: black;
+    cursor: pointer;
+    border: rgba(15, 13, 11, 0);
+    transition: 500ms;
+}
+.container1:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 1;
+}
+.container2{
+    margin-left: 50px;
+    width: 200px;
+    height:170px;
+    background-image: url("https://www.tripsavvy.com/thmb/58A3iO4pNLWV-yojm0QbsrmurbM=/2121x1414/filters:fill(auto,1)/GettyImages-606222988-5a823cff1d64040037dfd9a1.jpg");
+    border-radius: 8px;
+    background-size: cover;
+    box-shadow: black;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+.container2:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 1;
+}
+.container3{
+    margin-left: 50px;
+    width: 200px;
+    height:170px;
+    background-image: url("https://th.bing.com/th/id/R.9bd46d3dcf20037053602261b27f85af?rik=mCFuN0hL7eZ7pw&riu=http%3a%2f%2fshreejitoursntravels.in%2fwp-content%2fuploads%2f2018%2f10%2fVaishno-Devi.jpg&ehk=clpocIueL5m5pgWmr4AaMkqvXD0CR4PgZoVLjcFQxlU%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    border-radius: 8px;
+    background-color: blueviolet;
+    box-shadow: black;
+    cursor: pointer;
+    transition: 500ms;
+}
+.container3:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 1;
+}
+.container4{
+    margin-left: 50px;
+    width: 200px;
+    height:170px;
+    background-image: url("https://th.bing.com/th/id/OIP.vN6Ny7aW-SDgjOaKzulRcwHaE7?pid=ImgDet&rs=1");
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: black;
+    cursor: pointer;
+    transition: 500ms;
+}
+.container4:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 1;
+}
+/* .optionbox{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: black;
+
+} */
+h1{
+    padding-left: 460px;
+    align-items: center;
+    background-color: rgb(215, 243, 253);
+}   
+.box1{
+    padding-left: 30px;
+}
+.maincard{
+    /* background-image: url("https://images.unsplash.com/photo-1497211419994-14ae40a3c7a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D"); */
+    height:290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card2{
+    display: flex;
+    justify-content: space-around;
+    height: 290px;
+    border-radius: 2px;
+    
+}
+.container21{
+    padding-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container21:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+.incn21{
+    width:300px;
+    height: 200px;
+    background-image: url("https://indiatravel.com/wp-content/uploads/2021/12/1.Agra_.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container22{
+    width: 300px;
+    padding-top: 20px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container22:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+.incn22{
+    width:300px;
+    height: 200px;
+    background-image: url("https://indiatravel.com/wp-content/uploads/2021/12/1.Darjeeling.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.container23{
+    padding-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container23:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.incn23{
+    width:300px;
+    height: 200px;
+    background-image: url("https://indiatravel.com/wp-content/uploads/2021/12/1.Goa_.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.container24{
+    padding-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container24:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.incn24{
+    width:300px;
+    height: 200px;
+    background-image: url("https://indiatravel.com/wp-content/uploads/2021/12/1.Rajasthan.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.viewmore{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    text-align:center;
+}
+.card3{
+    display: flex;
+    justify-content: space-around;
+}
+.container25{
+    padding-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container25:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.incn25{
+    width:300px;
+    height: 200px;
+    background-image: url("https://www.weseektravel.com/wp-content/uploads/2020/07/INDIA-ITINERARY-1-MONTH-JOURNEY-2942-e1626242184181.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.viewmore{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    text-align:center;
+}
+.container26{
+    padding-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container26:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.incn26{
+    width:300px;
+    height: 200px;
+    background-image: url("https://www.weseektravel.com/wp-content/uploads/2020/07/INDIA-ITINERARY-1-MONTH-JOURNEY-2942-e1626242184181.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.viewmore{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    text-align:center;
+}
+.container27{
+    padding-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container27:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.incn27{
+    width:300px;
+    height: 200px;
+    background-image: url("https://www.weseektravel.com/wp-content/uploads/2020/07/INDIA-ITINERARY-1-MONTH-JOURNEY-2942-e1626242184181.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.viewmore{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    text-align:center;
+}
+.container28{
+    padding-top: 20px;
+    width: 300px;
+    background-color: transparent;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 500ms;
+}
+.container28:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.incn28{
+    width:300px;
+    height: 200px;
+    background-image: url("https://www.weseektravel.com/wp-content/uploads/2020/07/INDIA-ITINERARY-1-MONTH-JOURNEY-2942-e1626242184181.jpg");
+    /* border-radius: 100%; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.viewmore{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    text-align:center;
+}
+.mainlocation{
+    background-image: url("https://wallpaperaccess.com/full/133822.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    height: 180px;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+}
+.locationselector{
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+    width:50%;
+    height: 50px;
+    background-color: rgb(177, 195, 15);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.location{
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #4a6e94;
+    width: 200px;
+    height: 30px;
+    border: none;   
+    border-radius: 20px;
+}
+.people{
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    color:#4a6e94;
+    border: none;
+    border-radius: 100px;
+}
+.date{
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    color:#4a6e94;
+    border: none;
+    border-radius: 20px;
+}
+.searchbutton{
+    margin-left: 90px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    width: 100px;
+    background-color: #d6dae0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.about{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+}
+.abouttext{
+    display: flex;
+    
+}
+h2{
+    margin-left: 550px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+.help{
+    margin-left: 725px;
+}
+.contact{
+    
+    padding-left: 70px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #76a3d2;
+    height: 140px;
+    align-items: center;
+}
+h6{
+    color: black;
+    font-size: 20px;
+    margin-bottom: -4px;
+}
